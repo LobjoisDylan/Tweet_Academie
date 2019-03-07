@@ -1,0 +1,215 @@
+body{
+	background-color: #d9e0e6;
+}
+
+.accueil{
+	padding-top: 100px;
+}
+
+
+.container-messagerie{
+	background-color: white;
+	height: 500px;
+	width: auto;
+	border-radius: 6px;
+}
+
+.entete{
+	height: 50px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+h1{
+	text-align: center;
+	padding-top: 7px;
+}
+
+h2{
+	text-align: center;
+	padding-top: 7px;
+}
+
+/* CONVERSATION */
+
+.conversations{
+	background-color: white;
+	height: auto;
+	width: auto;
+	margin-bottom: 10px;
+	border-radius: 6px;
+}
+
+.form_convers{
+	margin: inherit;
+	margin-left: 10px;
+	height: 130px;
+}
+
+label{
+	display: block;
+	margin-top: 30px;
+}
+
+.form_convers_input{
+	margin-top: 5px;
+	width: 230px;
+}
+
+/* CONTENT */
+
+.contents{
+	height: 380px;
+	width: auto;
+}
+
+.text{
+	background-color: rgba(29, 161, 242, 0.3);
+	width: auto;
+	height: 70px;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+}
+
+.form_messagerie{
+	margin: inherit;
+	margin-left: 15px;
+}
+
+.messagerie_input{
+	width: 500px;
+	margin-top: 15px;
+	height: 37px;
+}
+
+.messagie-submit{
+	margin-top: 15px;
+	width: 127px;
+	height: 37px;
+	background-color: rgba(29, 161, 242);
+	border: none;
+	color: white;
+	font-size: 15px;
+}
+
+.messagie-submit:hover{
+	background-color: #44b2f5;
+}
+
+.picture{
+	float: left;
+	margin-top: 15px;
+	height: 37px;
+	width: 37px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: none;
+	background: none;
+}
+
+span{
+	font-size: 23px;
+	color: white;
+}
+
+.picture:hover{
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	color: white;
+}
+
+.contents{
+	overflow-y: auto;
+	position: relative;
+	transform: translate(0);
+}
+
+.content_message{
+	height: 50px;
+	width: 40px;
+	background-color: #44b2f5;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.content_message_all{
+}
+
+.content_message_p{
+	width: auto;
+	height: auto;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 5px;
+	border-radius: 5px;
+	color: white;
+	font-size: 14px;
+	background-color: rgba(29, 161, 242);
+}
+
+@media (max-width: 1920px) AND (min-width: 1140px)
+{
+	.form_convers_input{
+		width: 230px;
+	}
+
+	.messagerie_input{
+		width: 515px;
+	}
+}
+
+@media (max-width: 1140px) AND (min-width: 1024px)
+{
+	.form_convers_input{
+		width: 195px;
+	}
+
+	.messagerie_input{
+		width: 400px;
+	}
+}
+
+@media (max-width: 1024px) AND (min-width: 768px)
+{
+	.form_convers_input{
+		width: 130px;
+	}
+
+	.messagerie_input{
+		width: 230px;
+	}
+}
+
+@media (max-width: 768px) AND (min-width: 500px)
+{
+	.form_convers_input{
+		width: 490px;
+	}
+
+	.messagerie_input{
+		width: 280px;
+	}
+
+	.container_messagerie{
+		height: 530px;
+	}
+}
+
+@media (max-width: 500px)
+{
+	.form_convers_input{
+		width: 300px;
+	}
+
+	.messagerie_input{
+		width: 180px;
+	}
+
+	.container_messagerie{
+		height: 546px;
+	}
+}}
+}}
+}}
+}}

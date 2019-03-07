@@ -1,0 +1,72 @@
+body{
+	background-image: url('images/confectionary.png');
+}
+
+.container{
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 600px;
+}
+
+.img{
+	background: url('images/abstract.jpg');
+	height: 600px;
+	width: 1030px;
+	background-size: contain;
+}
+
+.img_connexion{
+	background: url('images/smoke.jpg');
+	height: 600px;
+	width: 1030px;
+	background-size: contain;
+}
+
+img{
+	width: 280px;
+	margin-top: 150px;
+	margin-left: 35px;
+}
+
+.img_logo{
+	text-align: center;
+}
+
+.identification{
+	background-color: white;
+	height: 600px;
+	box-shadow: rgba(0,0,0,0.2) 0 4px 2px;
+}
+
+h1{
+	text-align: center;
+	padding-top: 30px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	font-family: 'Mitr', sans-serif;
+	color: #1da1f2;
+}
+
+.input-group{
+	margin-bottom: 20px;
+	height: 40px;
+}
+
+#pseudo, #mail, #password, #re_password{
+	height: 40px;
+}
+
+.btn{
+	margin-bottom: 18px;
+	height: 40px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.btn2{
+	padding-top: 6px;
+}
+
+.sub_insc{
+	padding-top: 5px;
+}

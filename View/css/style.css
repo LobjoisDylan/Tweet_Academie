@@ -1,0 +1,89 @@
+body{
+	background-image: url('../images/confectionary.png');
+}
+
+.container{
+	margin: 0 auto;
+	margin-top: 50px;
+	height: 600px;
+}
+
+.img_block{
+	height: 600px;
+	width: 520px;
+	margin-top: -149px;
+}
+
+.img_block img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+img{
+	width: 280px;
+	margin-top: 150px;
+	margin-left: 35px;
+}
+
+#logo_twitter{
+	margin-top: -637px;
+	width: 50%;
+	height: 50%;
+	margin-left: 157px;
+}
+
+.img_logo{
+	text-align: center;
+}
+
+.identification{
+	background-color: white;
+	height: 600px;
+	box-shadow: rgba(0,0,0,0.2) 0 4px 2px;
+}
+
+h1{
+	text-align: center;
+	padding-top: 30px;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	font-family: 'Mitr', sans-serif;
+	color: rgba(29, 161, 242);
+}
+
+.input-group{
+	margin-bottom: 20px;
+	height: 40px;
+}
+
+#username, #email, #password, #password_confirm, #firstname, #lastname{
+	height: 40px;
+}
+
+#lastname{
+	margin-right: 9px;
+}
+
+.btn{
+	margin-bottom: 18px;
+	height: 40px;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.btn2{
+	padding-top: 6px;
+}
+
+.sub_insc{
+	padding-top: 5px;
+}
+
+#affich_error{
+	margin-bottom: 7px;
+	color: red;
+	font-size: 15px;
+	float: right;
+	margin-top: -16px;
+}}}

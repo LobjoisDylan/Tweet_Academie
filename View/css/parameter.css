@@ -1,0 +1,46 @@
+body{
+	background-color: #d9e0e6;
+}
+
+h2
+{
+	margin-bottom:20px;
+}
+
+.border
+{
+	padding:40px;
+	border:1px solid white;
+	background-color:white;
+	margin-top:150px;
+	height:280px;
+	width:300px;
+	text-align:center;
+}
+
+footer
+{
+	margin-top:70px;
+	margin-left:530px;
+}
+
+article input
+{
+	margin-left:35px;
+}
+
+#submit_password, #submit_username, #submit_email
+{
+	margin-left:70px;
+	width:100px;
+	background-color:rgba(29, 161, 242);
+	margin-top:5px;
+	color:white;
+}
+
+#affich_error_email, #affich_error_username, #affich_error_password
+{
+	font-size:14px;
+	color:red;
+	margin-left:20px;
+}}}}

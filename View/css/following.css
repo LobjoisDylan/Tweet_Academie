@@ -1,0 +1,378 @@
+body{
+	background-color: #d9e0e6;
+}
+
+h1{
+	color: white;
+}
+
+.registrer{
+	color: white;
+}
+
+.profil_accueil{
+	background-color: white;
+	height: 372px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.profil_accueil:hover{
+	box-shadow: rgba(0,0,0,0.3) 0 3px 3px;
+	transition: 0.4s;
+}
+
+.img_profil{
+	margin-top: -210px;
+	text-align: center;
+	z-index: 9;
+}
+
+.img_profil img{
+	background-size: contain;
+	height: 100%;
+	width: 9%;
+	border-radius: 80px;
+	border: 4px solid white;
+	margin: 0 auto;
+	z-index: 9;
+}
+
+.block{
+	height: 307px;
+	width: auto;
+	background-size: contain;
+}
+
+.block img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+
+.pseudo{
+	text-align: center;
+	margin-top: 5px;
+}
+
+a{
+	font-size: 15px;
+	color: grey;
+	text-decoration: none;
+}
+
+a:hover{
+	color: rgba(29, 161, 242);
+	text-decoration: none;
+}
+
+.block_profil_accueil{
+	text-align: center;
+}
+
+.edit{
+	margin-top: 12px;
+}
+
+.edit_a{
+	background-color: rgba(29, 161, 242);
+	border-radius: 7px;
+	padding-top: 5px;
+	padding-bottom: 8px;
+	color: white;
+	border: none;
+	width: 173px;
+	font-size: 13px;
+}
+
+.edit_a:hover{
+	color: white;
+	background-color: #3379a3;
+}
+
+.a_abonnements{
+	margin-left: -19px;
+}
+
+.number_profils{
+	font-size: 20px;
+	color: rgba(29, 161, 242);
+	font-weight: 600;
+}
+
+.number_profils{
+	margin-top: -10px;
+}
+
+.number_abo{
+	margin-left: -26px;
+}
+
+/* EDIT */
+
+#profil_edit{
+	height: 309px;
+	border: 1px solid white;
+	padding-left: 11px;
+	width: 260px;
+	background-color: rgba(242, 242, 242, 0.6);
+	border-radius: 13px;
+	display: none;
+}
+
+.block_carre{
+	display: flex;
+	width: 260px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.carre{
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+}
+
+#blue, #pink, #green, #yellow, #orange{
+	cursor: pointer;
+}
+
+#blue{
+	background-color: rgba(29, 161, 242);
+}
+
+#pink{
+	background-color: #fc4f6d;
+}
+
+#green{
+	background-color: #3be63b;
+}
+
+#yellow{
+	background-color: #fcfc3c;
+}
+
+#orange{
+	background-color: #ffb123;
+}
+
+.form_edit{
+	width: 260px;
+	height: 120px;
+}
+
+.input_edit{
+	width: 237px;
+	height: 30px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.edit_submit{
+	margin-top: 10px;
+	margin-right: 11px;
+	width: 233px;
+	background-color: rgba(29, 161, 242);
+	border: none;
+	color: white;
+	font-size: 15px;
+	border-radius: 15px;
+}
+
+.edit_submit:hover{
+	background-color: #44b2f5;
+}
+
+.h3_edit{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Tendances */
+
+.tendances{
+	margin-top: 15px;
+	background-color: white;
+	height: auto;
+	width: 270px;
+}
+
+.tendances:hover{
+	box-shadow: rgba(0,0,0,0.3) 0 3px 3px;
+	transition: 0.4s;
+}
+
+h2{
+	font-weight: 600;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.header_tendances{
+	height: 50px;
+	width: 270px;
+	background-color: rgba(29, 161, 242);
+	color: white;
+}
+
+.hashtag_tendances{
+	margin-top: 10px;
+	margin-left: 15px;
+}
+
+.hashtag_tendances_block{
+	width: 270px;
+}
+
+h4{
+	color: grey;
+	margin-left: 10px;
+	font-weight: 300;
+	margin-top: 3px;
+}
+
+.post_tweet{
+	padding-left: 10px;
+	display: flex;
+	text-align: left;
+}
+
+p{
+	font-size: 20px;
+}
+
+.retweet{
+	height: 40px;
+}
+
+span{
+	margin-top: 6px;
+	margin-left: 44px;
+	font-size: 18px;
+	color :#c2c2c2;
+}
+
+.comment{
+	margin-left: 76px;
+}
+
+span:hover{
+	color :#ababab;
+}
+
+/* suggestions */
+
+.suggestions{
+	background-color: white;
+	height: 160px;
+	width: 270px;
+}
+
+.suggestions:hover{
+	box-shadow: rgba(0,0,0,0.3) 0 3px 3px;
+	transition: 0.4s;
+}
+
+.suggestions_block{
+	background-color: white;
+	padding-top: 5px;
+}
+
+/* footer */
+
+footer{
+	margin-top: 10px;
+	padding: 10px;
+	background-color: white;
+	height: auto;
+	width: 270px;
+}
+
+.footer{
+	font-size: 14px;
+	color: grey;
+}
+
+footer:hover{
+	box-shadow: rgba(0,0,0,0.3) 0 3px 3px;
+	transition: 0.4s;
+}
+
+/* following */
+
+.profil_following{
+	background-color: white;
+	height: 252px;
+	width: 270px;
+	margin-bottom: 10px;
+}
+
+.profil_following:hover{
+	box-shadow: rgba(0,0,0,0.3) 0 3px 3px;
+	transition: 0.4s;
+}
+
+.img_following{
+	text-align: center;
+}
+
+.img_following img{
+	background-size: contain;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	margin: 0 auto;
+	margin-top: -50px;
+}
+
+.block_following{
+	background-color:rgba(29, 161, 242);
+	height: 100px;
+	width: 270px;
+}
+
+.block_following img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.follow{
+	width: 103px;
+	margin: 0 auto;
+	margin-top: 22px;
+}
+
+.follow_a{
+	background-color: rgba(29, 161, 242);
+	border-radius: 7px;
+	height: 30px;
+	color: white;
+	width: 106px;
+	border: none;
+	font-size: 16px;
+}
+
+.follow_a:hover{
+	color: white;
+	background-color: #3379a3;
+}
+
+.h1_following{
+	color: black;
+}lack;
+}lack;
+}lack;
+}lack;
+}lack;
+}lack;
+}lack;
+}lack;
+}lack;
+}lack;
+}lack;
+}lack;
+}
